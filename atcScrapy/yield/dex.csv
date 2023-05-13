@@ -1,0 +1,543 @@
+dex_name,dex_network,dex_url
+Cetus,sui-network,https://www.geckoterminal.com/sui-network/cetus/pools
+BlueMove,sui-network,https://www.geckoterminal.com/sui-network/bluemove/pools
+Uniswap V3,eth,https://www.geckoterminal.com/eth/uniswap_v3/pools
+Uniswap V2,eth,https://www.geckoterminal.com/eth/uniswap_v2/pools
+Curve,eth,https://www.geckoterminal.com/eth/curve/pools
+Balancer,eth,https://www.geckoterminal.com/eth/balancer_ethereum/pools
+SushiSwap,eth,https://www.geckoterminal.com/eth/sushiswap/pools
+Pancakeswap V3 (Ethereum),eth,https://www.geckoterminal.com/eth/pancakeswap-v3-ethereum/pools
+Shibaswap,eth,https://www.geckoterminal.com/eth/shibaswap/pools
+Fraxswap (Ethereum),eth,https://www.geckoterminal.com/eth/fraxswap_ethereum/pools
+Verse,eth,https://www.geckoterminal.com/eth/verse/pools
+Saitaswap (Ethereum),eth,https://www.geckoterminal.com/eth/saitaswap-ethereum/pools
+Pancakeswap (Ethereum),eth,https://www.geckoterminal.com/eth/pancakeswap_ethereum/pools
+Defi Swap,eth,https://www.geckoterminal.com/eth/defi_swap/pools
+DOOAR (Ethereum),eth,https://www.geckoterminal.com/eth/dooar_ethereum/pools
+Kyberswap Classic (Ethereum),eth,https://www.geckoterminal.com/eth/kyberswap_classic_ethereum/pools
+Solidly,eth,https://www.geckoterminal.com/eth/solidlydex/pools
+RadioShack (Ethereum),eth,https://www.geckoterminal.com/eth/radioshack_ethereum/pools
+Unicly,eth,https://www.geckoterminal.com/eth/unicly/pools
+Elk Finance (Ethereum),eth,https://www.geckoterminal.com/eth/elk_finance_ethereum/pools
+Standard (Ethereum),eth,https://www.geckoterminal.com/eth/standard_ethereum/pools
+KyberSwap Elastic,eth,https://www.geckoterminal.com/eth/kyberswap_elastic/pools
+Whiteswap,eth,https://www.geckoterminal.com/eth/whiteswap/pools
+ApeSwap (Ethereum),eth,https://www.geckoterminal.com/eth/apeswap_ethereum/pools
+SakeSwap,eth,https://www.geckoterminal.com/eth/sakeswap/pools
+Concave,eth,https://www.geckoterminal.com/eth/concave/pools
+DegenSwap,eth,https://www.geckoterminal.com/eth/degenswap/pools
+Swapr (Ethereum),eth,https://www.geckoterminal.com/eth/swapr_ethereum/pools
+SmarDex,eth,https://www.geckoterminal.com/eth/smardex/pools
+SafemoonSwap (Ethereum),eth,https://www.geckoterminal.com/eth/safemoonswap_ethereum/pools
+TempleDAO,eth,https://www.geckoterminal.com/eth/templedao/pools
+Antfarm,eth,https://www.geckoterminal.com/eth/antfarm/pools
+Spice Trade (Ethereum),eth,https://www.geckoterminal.com/eth/spice_trade_ethereum/pools
+Pancakeswap V2,bsc,https://www.geckoterminal.com/bsc/pancakeswap_v2/pools
+Pancakeswap V3 (BSC),bsc,https://www.geckoterminal.com/bsc/pancakeswap-v3-bsc/pools
+Fstswap,bsc,https://www.geckoterminal.com/bsc/fstswap/pools
+Uniswap (BSC),bsc,https://www.geckoterminal.com/bsc/uniswap-bsc/pools
+Biswap,bsc,https://www.geckoterminal.com/bsc/biswap/pools
+THENA,bsc,https://www.geckoterminal.com/bsc/thena/pools
+THENA FUSION,bsc,https://www.geckoterminal.com/bsc/thena-fusion/pools
+W3Swap,bsc,https://www.geckoterminal.com/bsc/w3swap/pools
+Pancakeswap (Stable),bsc,https://www.geckoterminal.com/bsc/pancakeswap_stableswap/pools
+Nomiswap (Stable),bsc,https://www.geckoterminal.com/bsc/nomiswap_stable/pools
+ApeSwap (BSC),bsc,https://www.geckoterminal.com/bsc/apeswap_bsc/pools
+BabyDogeSwap,bsc,https://www.geckoterminal.com/bsc/babydogeswap/pools
+MDEX (BSC),bsc,https://www.geckoterminal.com/bsc/mdex_bsc/pools
+TraderJoe V2.1 (BSC),bsc,https://www.geckoterminal.com/bsc/traderjoe-v2-1-bsc/pools
+BabySwap,bsc,https://www.geckoterminal.com/bsc/babyswap/pools
+SafeMoon Swap,bsc,https://www.geckoterminal.com/bsc/safemoon_swap/pools
+Nomiswap,bsc,https://www.geckoterminal.com/bsc/nomiswap/pools
+Mars Ecosystem,bsc,https://www.geckoterminal.com/bsc/mars_ecosystem/pools
+Sushiswap (BSC),bsc,https://www.geckoterminal.com/bsc/sushiswap_bsc/pools
+DOOAR (BSC),bsc,https://www.geckoterminal.com/bsc/dooar_bsc/pools
+BakerySwap,bsc,https://www.geckoterminal.com/bsc/bakeryswap/pools
+KyotoSwap,bsc,https://www.geckoterminal.com/bsc/kyotoswap/pools
+Kyberswap Classic (BSC),bsc,https://www.geckoterminal.com/bsc/kyberswap_classic_bsc/pools
+KnightSwap,bsc,https://www.geckoterminal.com/bsc/knightswap/pools
+RadioShack (BSC),bsc,https://www.geckoterminal.com/bsc/radioshack_bsc/pools
+Planet Finance,bsc,https://www.geckoterminal.com/bsc/planet_finance/pools
+Ellipsis Finance,bsc,https://www.geckoterminal.com/bsc/ellipsis_finance/pools
+TraderJoe V2 (BSC),bsc,https://www.geckoterminal.com/bsc/traderjoe-v2-bsc/pools
+lif3 (BSC),bsc,https://www.geckoterminal.com/bsc/lif3-bsc/pools
+Impossible Finance v2,bsc,https://www.geckoterminal.com/bsc/impossible_finance/pools
+SWYCH,bsc,https://www.geckoterminal.com/bsc/swych/pools
+Definix,bsc,https://www.geckoterminal.com/bsc/definix/pools
+OpenOcean,bsc,https://www.geckoterminal.com/bsc/openocean/pools
+JulSwap,bsc,https://www.geckoterminal.com/bsc/julswap/pools
+Fraxswap (BSC),bsc,https://www.geckoterminal.com/bsc/fraxswap_bsc/pools
+Baryon Network,bsc,https://www.geckoterminal.com/bsc/baryon_network/pools
+Pandora Digital Swap,bsc,https://www.geckoterminal.com/bsc/pandora_digital_swap/pools
+Elk Finance (BSC),bsc,https://www.geckoterminal.com/bsc/elk_finance_bsc/pools
+DinosaurEggs,bsc,https://www.geckoterminal.com/bsc/dinosaureggs/pools
+Wault Finance,bsc,https://www.geckoterminal.com/bsc/wault_finance/pools
+DAO Swap,bsc,https://www.geckoterminal.com/bsc/dao_swap/pools
+Saitaswap (BSC),bsc,https://www.geckoterminal.com/bsc/saitaswap-bsc/pools
+Jswap (BSC),bsc,https://www.geckoterminal.com/bsc/jswap_bsc/pools
+Niob,bsc,https://www.geckoterminal.com/bsc/niob/pools
+Jetswap (BSC),bsc,https://www.geckoterminal.com/bsc/jetswap_bsc/pools
+Impossible Finance v3,bsc,https://www.geckoterminal.com/bsc/impossible_finance_v3/pools
+Yoshi.exchange (BSC),bsc,https://www.geckoterminal.com/bsc/yoshi_exchange_bsc/pools
+Winery Swap,bsc,https://www.geckoterminal.com/bsc/winery_swap/pools
+TraderJoe (BSC),bsc,https://www.geckoterminal.com/bsc/traderjoe-bsc/pools
+Justmoney (BSC),bsc,https://www.geckoterminal.com/bsc/justmoney_bsc/pools
+Padswap (BSC),bsc,https://www.geckoterminal.com/bsc/padswap-bsc/pools
+Annex Finance (BSC),bsc,https://www.geckoterminal.com/bsc/annex_finance_bsc/pools
+Cone Exchange,bsc,https://www.geckoterminal.com/bsc/cone_exchange/pools
+AutoShark Finance,bsc,https://www.geckoterminal.com/bsc/autoshark_finance/pools
+Pinkswap,bsc,https://www.geckoterminal.com/bsc/pinkswap/pools
+Sphynx Swap,bsc,https://www.geckoterminal.com/bsc/sphynx_swap/pools
+LeonicornSwap,bsc,https://www.geckoterminal.com/bsc/leonicornswap/pools
+Alium,bsc,https://www.geckoterminal.com/bsc/alium/pools
+Spice Trade (BSC),bsc,https://www.geckoterminal.com/bsc/spice_trade_bsc/pools
+PLS2E,bsc,https://www.geckoterminal.com/bsc/pls2e/pools
+OrbitalSwap,bsc,https://www.geckoterminal.com/bsc/orbitalswap/pools
+Firebird (BSC),bsc,https://www.geckoterminal.com/bsc/firebird_bsc/pools
+CorgiSwap,bsc,https://www.geckoterminal.com/bsc/corgiswap/pools
+EmpireDEX (BSC),bsc,https://www.geckoterminal.com/bsc/empiredex_bsc/pools
+Moonlift,bsc,https://www.geckoterminal.com/bsc/moonlift/pools
+PYESwap (BSC),bsc,https://www.geckoterminal.com/bsc/pyeswap_bsc/pools
+DDDX,bsc,https://www.geckoterminal.com/bsc/dddx/pools
+WhaleSwap,bsc,https://www.geckoterminal.com/bsc/whaleswap/pools
+iZiSwap (BSC),bsc,https://www.geckoterminal.com/bsc/iziswap-bsc/pools
+PolkaEx (BSC),bsc,https://www.geckoterminal.com/bsc/polkaex_bsc/pools
+Bridges,bsc,https://www.geckoterminal.com/bsc/bridges/pools
+CakeWSwap (BSC),bsc,https://www.geckoterminal.com/bsc/cakewswap_bsc/pools
+Kyberswap Elastic (BSC),bsc,https://www.geckoterminal.com/bsc/kyberswap_elastic_bsc/pools
+Uniswap V3 (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/uniswap_v3_arbitrum/pools
+SushiSwap (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/sushiswap_arbitrum/pools
+TraderJoe V2.1 (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/traderjoe-v2-1-arbitrum/pools
+Chronos,arbitrum,https://www.geckoterminal.com/arbitrum/chronos/pools
+Camelot,arbitrum,https://www.geckoterminal.com/arbitrum/camelot/pools
+Curve (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/curve_arbitrum/pools
+TraderJoe V2 (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/traderjoe-v2-arbitrum/pools
+Ramses,arbitrum,https://www.geckoterminal.com/arbitrum/ramses/pools
+Camelot V3,arbitrum,https://www.geckoterminal.com/arbitrum/camelot-v3/pools
+Balancer (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/balancer_arbitrum/pools
+Auragi,arbitrum,https://www.geckoterminal.com/arbitrum/auragi/pools
+MMFinance V3 (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/mmfinance-v3-arbitrum/pools
+Kyberswap Classic (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/kyberswap_classic_arbitrum/pools
+Arbidex,arbitrum,https://www.geckoterminal.com/arbitrum/arbidex/pools
+Swaprum,arbitrum,https://www.geckoterminal.com/arbitrum/swaprum/pools
+MM Finance (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/mm-finance-arbitrum/pools
+SolidLizard,arbitrum,https://www.geckoterminal.com/arbitrum/solidlizard/pools
+3xcalibur,arbitrum,https://www.geckoterminal.com/arbitrum/3xcalibur/pools
+LFGswap (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/lfgswap-arbitrum/pools
+Arbswap (Arbitrum One),arbitrum,https://www.geckoterminal.com/arbitrum/arbswap_arbitrum_one/pools
+Fraxswap (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/fraxswap_arbitrum/pools
+Zyberswap,arbitrum,https://www.geckoterminal.com/arbitrum/zyberswap/pools
+Mindgames (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/mindgames-arbitrum/pools
+OreoSwap,arbitrum,https://www.geckoterminal.com/arbitrum/oreoswap/pools
+Kyberswap Elastic (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/kyberswap_elastic_arbitrum/pools
+OasisSwap,arbitrum,https://www.geckoterminal.com/arbitrum/oasisswap/pools
+Sterling,arbitrum,https://www.geckoterminal.com/arbitrum/sterling/pools
+Arbswap StableSwap (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/arbswap-stableswap-arbitrum/pools
+AlienFi,arbitrum,https://www.geckoterminal.com/arbitrum/alienfi/pools
+Apeswap (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/apeswap-arbitrum/pools
+Swapr (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/swapr_arbitrum/pools
+Magicswap,arbitrum,https://www.geckoterminal.com/arbitrum/magicswap/pools
+Whitehole (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/whitehole-arbitrum/pools
+Elk Finance (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/elk_finance_arbitrum/pools
+SwapFish,arbitrum,https://www.geckoterminal.com/arbitrum/swapfish/pools
+ArbiSwap,arbitrum,https://www.geckoterminal.com/arbitrum/arbiswap/pools
+Archly (Arbitrum),arbitrum,https://www.geckoterminal.com/arbitrum/archly-arbitrum/pools
+Aegis,arbitrum,https://www.geckoterminal.com/arbitrum/aegis/pools
+SharkySwap,arbitrum,https://www.geckoterminal.com/arbitrum/sharkyswap/pools
+Uniswap V3 (Polygon POS),polygon_pos,https://www.geckoterminal.com/polygon_pos/uniswap_v3_polygon_pos/pools
+Quickswap (v3),polygon_pos,https://www.geckoterminal.com/polygon_pos/quickswap_v3/pools
+Quickswap,polygon_pos,https://www.geckoterminal.com/polygon_pos/quickswap/pools
+Sushiswap (Polygon POS),polygon_pos,https://www.geckoterminal.com/polygon_pos/sushiswap_polygon_pos/pools
+Balancer (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/balancer_polygon/pools
+Dfyn,polygon_pos,https://www.geckoterminal.com/polygon_pos/dfyn/pools
+ApeSwap (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/apeswap_polygon/pools
+Curve (Polygon POS),polygon_pos,https://www.geckoterminal.com/polygon_pos/curve_polygon_pos/pools
+Kyberswap Classic (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/kyberswap_classic_polygon/pools
+Fraxswap (Polygon POS),polygon_pos,https://www.geckoterminal.com/polygon_pos/fraxswap_polygon_pos/pools
+Gravity Finance,polygon_pos,https://www.geckoterminal.com/polygon_pos/gravity_finance/pools
+MMFinance (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/mmfinance_polygon/pools
+Kyberswap Elastic (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/kyberswap_elastic_polygon/pools
+Dystopia,polygon_pos,https://www.geckoterminal.com/polygon_pos/dystopia/pools
+PurpleBridge,polygon_pos,https://www.geckoterminal.com/polygon_pos/purplebridge/pools
+Polycat Finance,polygon_pos,https://www.geckoterminal.com/polygon_pos/polycat_finance/pools
+lif3 (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/lif3-polygon/pools
+CrowdSwap,polygon_pos,https://www.geckoterminal.com/polygon_pos/crowdswap/pools
+Satin Exchange,polygon_pos,https://www.geckoterminal.com/polygon_pos/satin-exchange/pools
+ComethSwap,polygon_pos,https://www.geckoterminal.com/polygon_pos/comethswap/pools
+VulcanDex,polygon_pos,https://www.geckoterminal.com/polygon_pos/vulcandex/pools
+Elk Finance (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/elk_finance_polygon/pools
+Wault Finance (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/wault_finance_polygon/pools
+Phenix Finance (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/phenix-finance-polygon/pools
+Jetswap (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/jetswap_polygon/pools
+RadioShack (Polygon POS),polygon_pos,https://www.geckoterminal.com/polygon_pos/radioshack_polygon_pos/pools
+PolyDEX,polygon_pos,https://www.geckoterminal.com/polygon_pos/polydex/pools
+Firebird Finance (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/firebird_finance_polygon/pools
+Honeyswap (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/honeyswap_polygon/pools
+TetuSwap,polygon_pos,https://www.geckoterminal.com/polygon_pos/tetuswap/pools
+JustMoney (Polygon POS),polygon_pos,https://www.geckoterminal.com/polygon_pos/justmoney_polygon_pos/pools
+Dinoswap,polygon_pos,https://www.geckoterminal.com/polygon_pos/dinoswap/pools
+NachoSwap,polygon_pos,https://www.geckoterminal.com/polygon_pos/nachoswap/pools
+Greenhouse DEX,polygon_pos,https://www.geckoterminal.com/polygon_pos/greenhouse_dex/pools
+Algebra Finance,polygon_pos,https://www.geckoterminal.com/polygon_pos/algebra_finance/pools
+Spice Trade (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/spice_trade_polygon/pools
+MeshSwap,polygon_pos,https://www.geckoterminal.com/polygon_pos/meshswap/pools
+SafemoonSwap (Polygon),polygon_pos,https://www.geckoterminal.com/polygon_pos/safemoonswap-polygon/pools
+AuraSwap,polygon_pos,https://www.geckoterminal.com/polygon_pos/auraswap/pools
+Uniswap V3 (Optimism),optimism,https://www.geckoterminal.com/optimism/uniswap_v3_optimism/pools
+Velodrome Finance,optimism,https://www.geckoterminal.com/optimism/velodrome/pools
+Curve (Optimism),optimism,https://www.geckoterminal.com/optimism/curve_optimism/pools
+Beethoven X (Optimism),optimism,https://www.geckoterminal.com/optimism/beethoven_x_optimism/pools
+Kyberswap Classic (Optimism),optimism,https://www.geckoterminal.com/optimism/kyberswap_classic_optimism/pools
+Fraxswap (Optimism),optimism,https://www.geckoterminal.com/optimism/fraxswap_optimism/pools
+Kyberswap Elastic (Optimism),optimism,https://www.geckoterminal.com/optimism/kyberswap_elastic_optimism/pools
+ZipSwap,optimism,https://www.geckoterminal.com/optimism/zipswap/pools
+OpenXSwap,optimism,https://www.geckoterminal.com/optimism/openxswap/pools
+Elk Finance (Optimism),optimism,https://www.geckoterminal.com/optimism/elk_finance_optimism/pools
+Radioshack (Optimism),optimism,https://www.geckoterminal.com/optimism/radioshack_optimism/pools
+Archly (Optimism),optimism,https://www.geckoterminal.com/optimism/archly-optimism/pools
+TraderJoe V2.1 (Avalanche),avax,https://www.geckoterminal.com/avax/traderjoe-v2-1-avalanche/pools
+TraderJoe V2 (Avalanche),avax,https://www.geckoterminal.com/avax/traderjoe-v2-avalanche/pools
+TraderJoe,avax,https://www.geckoterminal.com/avax/traderjoe/pools
+Pangolin,avax,https://www.geckoterminal.com/avax/pangolin/pools
+Curve (Avalanche),avax,https://www.geckoterminal.com/avax/curve_avalanche/pools
+SoliSnek,avax,https://www.geckoterminal.com/avax/solisnek/pools
+Kyberswap Classic (Avalanche),avax,https://www.geckoterminal.com/avax/kyberswap_classic_avalanche/pools
+Glacier,avax,https://www.geckoterminal.com/avax/glacier/pools
+Sushiswap (Avalanche),avax,https://www.geckoterminal.com/avax/sushiswap_avalanche/pools
+Kyberswap Elastic (Avalanche),avax,https://www.geckoterminal.com/avax/kyberswap_elastic_avalanche/pools
+Fraxswap (Avalanche),avax,https://www.geckoterminal.com/avax/fraxswap_avalanche/pools
+Elk Finance (Avalanche),avax,https://www.geckoterminal.com/avax/elk_finance_avax/pools
+Swapsicle,avax,https://www.geckoterminal.com/avax/swapsicle/pools
+Flair Dex,avax,https://www.geckoterminal.com/avax/flair-dex/pools
+Lydia Finance,avax,https://www.geckoterminal.com/avax/lydia_finance/pools
+onAVAX,avax,https://www.geckoterminal.com/avax/onavax/pools
+VaporDex,avax,https://www.geckoterminal.com/avax/vapordex/pools
+Baguette,avax,https://www.geckoterminal.com/avax/baguette/pools
+YetiSwap,avax,https://www.geckoterminal.com/avax/yetiswap/pools
+Soulswap (Avalanche),avax,https://www.geckoterminal.com/avax/soulswap_avalanche/pools
+HurricaneSwap,avax,https://www.geckoterminal.com/avax/hurricaneswap/pools
+RadioShack (Avalanche),avax,https://www.geckoterminal.com/avax/radioshack_avalanche/pools
+HunnySwap,avax,https://www.geckoterminal.com/avax/hunnyswap/pools
+HakuSwap,avax,https://www.geckoterminal.com/avax/hakuswap/pools
+Spice Trade (Avalanche),avax,https://www.geckoterminal.com/avax/spice_trade_avalanche/pools
+Firebird (Avalanche),avax,https://www.geckoterminal.com/avax/firebird_avax/pools
+Thorus,avax,https://www.geckoterminal.com/avax/thorus/pools
+Apexswap,avax,https://www.geckoterminal.com/avax/apexswap/pools
+SyncSwap,zksync,https://www.geckoterminal.com/zksync/syncswap/pools
+Mute,zksync,https://www.geckoterminal.com/zksync/mute/pools
+SpaceFi (ZkSync),zksync,https://www.geckoterminal.com/zksync/spacefi_zksync/pools
+Velocore,zksync,https://www.geckoterminal.com/zksync/velocore/pools
+Solunea,zksync,https://www.geckoterminal.com/zksync/solunea/pools
+WAGMI (zkSync),zksync,https://www.geckoterminal.com/zksync/wagmi-zksync/pools
+Onsen Swap,zksync,https://www.geckoterminal.com/zksync/onsen-swap/pools
+GemSwap,zksync,https://www.geckoterminal.com/zksync/gemswap/pools
+MERLIN DEX,zksync,https://www.geckoterminal.com/zksync/merlin-dex/pools
+Canto DEX,canto,https://www.geckoterminal.com/canto/canto_dex/pools
+Velocimeter V2,canto,https://www.geckoterminal.com/canto/velocimeter_v2/pools
+Forteswap,canto,https://www.geckoterminal.com/canto/forteswap/pools
+CantoSwap,canto,https://www.geckoterminal.com/canto/cantoswap/pools
+Velocimeter,canto,https://www.geckoterminal.com/canto/velocimeter/pools
+LeetSwap (Canto),canto,https://www.geckoterminal.com/canto/leetswap-canto/pools
+SpookySwap,ftm,https://www.geckoterminal.com/ftm/spookyswap/pools
+Equalizer,ftm,https://www.geckoterminal.com/ftm/equalizer/pools
+Beethoven X (Fantom),ftm,https://www.geckoterminal.com/ftm/beethoven_x_fantom/pools
+Curve (Fantom),ftm,https://www.geckoterminal.com/ftm/curve_ftm/pools
+WigoSwap,ftm,https://www.geckoterminal.com/ftm/wigoswap/pools
+Tomb Swap (Fantom),ftm,https://www.geckoterminal.com/ftm/tomb_swap_fantom/pools
+SpiritSwap,ftm,https://www.geckoterminal.com/ftm/spiritswap/pools
+Sushiswap (Fantom),ftm,https://www.geckoterminal.com/ftm/sushiswap_fantom/pools
+Solidly (Fantom),ftm,https://www.geckoterminal.com/ftm/solidly/pools
+SpiritSwap V2,ftm,https://www.geckoterminal.com/ftm/spiritswap_v2/pools
+Fraxswap (Fantom),ftm,https://www.geckoterminal.com/ftm/fraxswap_fantom/pools
+Yoshi.exchange (Fantom),ftm,https://www.geckoterminal.com/ftm/yoshi_exchange_ftm/pools
+ProtoFi,ftm,https://www.geckoterminal.com/ftm/protofi/pools
+DarkKnight,ftm,https://www.geckoterminal.com/ftm/darkknight/pools
+SoulSwap,ftm,https://www.geckoterminal.com/ftm/soulswap/pools
+HyperJump (Fantom),ftm,https://www.geckoterminal.com/ftm/hyperjump_ftm/pools
+Elk Finance (Fantom),ftm,https://www.geckoterminal.com/ftm/elk_finance_ftm/pools
+Excalibur,ftm,https://www.geckoterminal.com/ftm/excalibur/pools
+PaintSwap,ftm,https://www.geckoterminal.com/ftm/paintswap/pools
+WingSwap,ftm,https://www.geckoterminal.com/ftm/wingswap/pools
+Morpheus Swap,ftm,https://www.geckoterminal.com/ftm/morpheus_swap/pools
+Redemption,ftm,https://www.geckoterminal.com/ftm/redemption/pools
+Jetswap (Fantom),ftm,https://www.geckoterminal.com/ftm/jetswap_fantom/pools
+Fbomb Finance,ftm,https://www.geckoterminal.com/ftm/fbomb_finance/pools
+Archly (FTM),ftm,https://www.geckoterminal.com/ftm/archly-ftm/pools
+MagikSwap,ftm,https://www.geckoterminal.com/ftm/magikswap/pools
+Kyberswap Elastic (Fantom),ftm,https://www.geckoterminal.com/ftm/kyberswap_elastic_fantom/pools
+RadioShack (Fantom),ftm,https://www.geckoterminal.com/ftm/radioshack_fantom/pools
+Dfyn (Fantom),ftm,https://www.geckoterminal.com/ftm/dfyn_fantom/pools
+WAGMI (Fantom),ftm,https://www.geckoterminal.com/ftm/wagmi-fantom/pools
+SkullSwap,ftm,https://www.geckoterminal.com/ftm/skullswap/pools
+Kyberswap Classic (Fantom),ftm,https://www.geckoterminal.com/ftm/kyberswap_classic_fantom/pools
+Firebird (Fantom),ftm,https://www.geckoterminal.com/ftm/firebird_fantom/pools
+Metropolis,ftm,https://www.geckoterminal.com/ftm/metropolis/pools
+Raydium,solana,https://www.geckoterminal.com/solana/raydium/pools
+KLAYSwap,klaytn,https://www.geckoterminal.com/klaytn/klayswap/pools
+Claimswap,klaytn,https://www.geckoterminal.com/klaytn/claimswap/pools
+DeFi Kingdoms (Serendale),klaytn,https://www.geckoterminal.com/klaytn/defi_kingdoms_serendale/pools
+Swappi,cfx,https://www.geckoterminal.com/cfx/swappi/pools
+WEMIX.FI,wemix,https://www.geckoterminal.com/wemix/wemix_fi/pools
+Archerswap,core,https://www.geckoterminal.com/core/archerswap/pools
+LFGswap (Core),core,https://www.geckoterminal.com/core/lfgswap-core/pools
+ShadowSwap,core,https://www.geckoterminal.com/core/shadowswap/pools
+Icecreamswap (Core),core,https://www.geckoterminal.com/core/icecreamswap-core/pools
+SatoshiCoreswap,core,https://www.geckoterminal.com/core/satoshicoreswap/pools
+Spoon Exchange,core,https://www.geckoterminal.com/core/spoon-exchange/pools
+NSKSwap,core,https://www.geckoterminal.com/core/nskswap/pools
+Katana,ronin,https://www.geckoterminal.com/ronin/katana/pools
+Hermes Protocol,metis,https://www.geckoterminal.com/metis/hermes_protocol/pools
+Netswap,metis,https://www.geckoterminal.com/metis/netswap/pools
+Tethys,metis,https://www.geckoterminal.com/metis/tethys/pools
+HyperJump (Metis),metis,https://www.geckoterminal.com/metis/hyperjump_metis/pools
+Standard,metis,https://www.geckoterminal.com/metis/standard/pools
+Agora Swap,metis,https://www.geckoterminal.com/metis/agora_swap/pools
+VVS,cro,https://www.geckoterminal.com/cro/vvs/pools
+MM Finance,cro,https://www.geckoterminal.com/cro/mm_finance/pools
+CroSwap,cro,https://www.geckoterminal.com/cro/croswap/pools
+Crodex,cro,https://www.geckoterminal.com/cro/crodex/pools
+Candycity Finance,cro,https://www.geckoterminal.com/cro/candycity_finance/pools
+CronaSwap,cro,https://www.geckoterminal.com/cro/cronaswap/pools
+Elk Finance,cro,https://www.geckoterminal.com/cro/elk_finance/pools
+Phenix Finance (Cronos),cro,https://www.geckoterminal.com/cro/phenix-finance-cronos/pools
+Annex Finance,cro,https://www.geckoterminal.com/cro/annex_finance/pools
+CrowFi,cro,https://www.geckoterminal.com/cro/crowfi/pools
+Cougar Exchange,cro,https://www.geckoterminal.com/cro/cougar_exchange/pools
+PhotonSwap,cro,https://www.geckoterminal.com/cro/photonswap/pools
+CyborgSwap,cro,https://www.geckoterminal.com/cro/cyborgswap/pools
+DuckyDeFi,cro,https://www.geckoterminal.com/cro/duckydefi/pools
+RadioShack (Cronos),cro,https://www.geckoterminal.com/cro/radioshack_cronos/pools
+AlienDEX,cro,https://www.geckoterminal.com/cro/aliendex/pools
+EmpireDEX (Cronos),cro,https://www.geckoterminal.com/cro/empiredex_cronos/pools
+Kyberswap Elastic (Cronos),cro,https://www.geckoterminal.com/cro/kyberswap_elastic_cronos/pools
+MM Finance V3 (Cronos),cro,https://www.geckoterminal.com/cro/mm-finance-v3-cronos/pools
+Firebird (Cronos),cro,https://www.geckoterminal.com/cro/firebird_cronos/pools
+KryptoDEX,cro,https://www.geckoterminal.com/cro/kryptodex/pools
+LiquidSwap,aptos,https://www.geckoterminal.com/aptos/liquidswap/pools
+PancakeSwap (Aptos),aptos,https://www.geckoterminal.com/aptos/pancakeswap_aptos/pools
+AnimeSwap,aptos,https://www.geckoterminal.com/aptos/animeswap/pools
+AUX Exchange,aptos,https://www.geckoterminal.com/aptos/aux/pools
+BaptSwap,aptos,https://www.geckoterminal.com/aptos/baptswap/pools
+SushiSwap (Arbitrum Nova),arbitrum_nova,https://www.geckoterminal.com/arbitrum_nova/sushiswap_arbitrum_nova/pools
+Arbswap (Arbitrum Nova),arbitrum_nova,https://www.geckoterminal.com/arbitrum_nova/arbswap_arbitrum_nova/pools
+RCP Swap,arbitrum_nova,https://www.geckoterminal.com/arbitrum_nova/rcpswap/pools
+Archly (Arbitrum Nova),arbitrum_nova,https://www.geckoterminal.com/arbitrum_nova/archly-arbitrum-nova/pools
+Arbswap StableSwap (Arbitrum Nova),arbitrum_nova,https://www.geckoterminal.com/arbitrum_nova/arbswap-stableswap-arbitrum-nova/pools
+StellaSwap (V3),glmr,https://www.geckoterminal.com/glmr/stellaswap-v3/pools
+StellaSwap,glmr,https://www.geckoterminal.com/glmr/stellaswap/pools
+Fraxswap (Moonbeam),glmr,https://www.geckoterminal.com/glmr/fraxswap_moonbeam/pools
+Beamswap,glmr,https://www.geckoterminal.com/glmr/beamswap/pools
+Curve (Moonbeam),glmr,https://www.geckoterminal.com/glmr/curve_moonbeam/pools
+Solarflare,glmr,https://www.geckoterminal.com/glmr/solarflare/pools
+Zenlink (Moonbeam),glmr,https://www.geckoterminal.com/glmr/zenlink_moonbeam/pools
+PadSwap (Moonbeam),glmr,https://www.geckoterminal.com/glmr/padswap_moonbeam/pools
+LunarDex,glmr,https://www.geckoterminal.com/glmr/lunardex/pools
+Thorus (Moonbeam),glmr,https://www.geckoterminal.com/glmr/thorus_moonbeam/pools
+Equilibre,kava,https://www.geckoterminal.com/kava/equilibre/pools
+Elk Finance (Kava),kava,https://www.geckoterminal.com/kava/elk_finance_kava/pools
+Surfswap,kava,https://www.geckoterminal.com/kava/surfswap/pools
+Archly (Kava),kava,https://www.geckoterminal.com/kava/archly-kava/pools
+Jupiter Swap,kava,https://www.geckoterminal.com/kava/jupiter_swap/pools
+PhotonSwap (Kava),kava,https://www.geckoterminal.com/kava/photonswap_kava/pools
+Mdex,heco,https://www.geckoterminal.com/heco/mdex/pools
+Makiswap,heco,https://www.geckoterminal.com/heco/makiswap/pools
+Elk Finance (HECO),heco,https://www.geckoterminal.com/heco/elk_finance_heco/pools
+Tranquil Finance,one,https://www.geckoterminal.com/one/tranquil_finance/pools
+DeFi Kingdoms,one,https://www.geckoterminal.com/one/defi_kingdoms/pools
+Sushiswap (Harmony),one,https://www.geckoterminal.com/one/sushiswap_harmony/pools
+Fuzz Finance,one,https://www.geckoterminal.com/one/fuzz_finance/pools
+Elk Finance (Harmony),one,https://www.geckoterminal.com/one/elk_finance_one/pools
+ViperSwap,one,https://www.geckoterminal.com/one/viperswap/pools
+OpenSwap,one,https://www.geckoterminal.com/one/openswap/pools
+FoxSwap,one,https://www.geckoterminal.com/one/foxswap/pools
+BossSwap,one,https://www.geckoterminal.com/one/bossswap/pools
+Lootswap,one,https://www.geckoterminal.com/one/lootswap/pools
+HermesDefi,one,https://www.geckoterminal.com/one/hermesdefi/pools
+WagmiDAO,one,https://www.geckoterminal.com/one/wagmidao/pools
+Kaidex_V3,kai,https://www.geckoterminal.com/kai/kaidex_v3/pools
+BecoSwap,kai,https://www.geckoterminal.com/kai/becoswap/pools
+Kaidex,kai,https://www.geckoterminal.com/kai/kaidex/pools
+OKCSwap,okexchain,https://www.geckoterminal.com/okexchain/okcswap/pools
+Cherryswap,okexchain,https://www.geckoterminal.com/okexchain/cherryswap/pools
+Kswap,okexchain,https://www.geckoterminal.com/okexchain/kswap/pools
+Jswap,okexchain,https://www.geckoterminal.com/okexchain/jswap/pools
+Elk Finance (OEC),okexchain,https://www.geckoterminal.com/okexchain/elk_finance_oec/pools
+MojitoSwap,kcc,https://www.geckoterminal.com/kcc/mojitoswap/pools
+Kuswap,kcc,https://www.geckoterminal.com/kcc/kuswap/pools
+Elk Finance (KCC),kcc,https://www.geckoterminal.com/kcc/elk_finance_kcc/pools
+Defi Kingdoms (Crystalvale),dfk,https://www.geckoterminal.com/dfk/defi_kingdoms_crystalvale/pools
+Kibbleswap,dogechain,https://www.geckoterminal.com/dogechain/kibbleswap/pools
+Quickswap (Dogechain),dogechain,https://www.geckoterminal.com/dogechain/quickswap_dogechain/pools
+Fraxswap (Dogechain),dogechain,https://www.geckoterminal.com/dogechain/fraxswap_dogechain/pools
+Yodeswap,dogechain,https://www.geckoterminal.com/dogechain/yodeswap/pools
+DogeSwap,dogechain,https://www.geckoterminal.com/dogechain/dogeswap/pools
+ToolSwap,dogechain,https://www.geckoterminal.com/dogechain/toolswap/pools
+Dogeshrek,dogechain,https://www.geckoterminal.com/dogechain/dogeshrek/pools
+Radioshack (Dogechain),dogechain,https://www.geckoterminal.com/dogechain/radioshack-dogechain/pools
+Bourbon Defi,dogechain,https://www.geckoterminal.com/dogechain/bourbon_defi/pools
+PupSwap,dogechain,https://www.geckoterminal.com/dogechain/pupswap/pools
+Trisolaris,aurora,https://www.geckoterminal.com/aurora/trisolaris/pools
+Nearpad,aurora,https://www.geckoterminal.com/aurora/nearpad/pools
+AuroraSwap,aurora,https://www.geckoterminal.com/aurora/auroraswap/pools
+WannaSwap,aurora,https://www.geckoterminal.com/aurora/wannaswap/pools
+Polaris,aurora,https://www.geckoterminal.com/aurora/polaris/pools
+Holdr,aurora,https://www.geckoterminal.com/aurora/holdr/pools
+Amaterasu,aurora,https://www.geckoterminal.com/aurora/amaterasu/pools
+MindGames,aurora,https://www.geckoterminal.com/aurora/mindgames/pools
+Enosys DEX,songbird,https://www.geckoterminal.com/songbird/enosys-dex/pools
+Oracleswap,songbird,https://www.geckoterminal.com/songbird/oracleswap/pools
+Pangolin Songbird,songbird,https://www.geckoterminal.com/songbird/pangolin-songbird/pools
+BlazeSwap,songbird,https://www.geckoterminal.com/songbird/blazeswap/pools
+KyberSwap Classic (BitTorrent),bttc,https://www.geckoterminal.com/bttc/kyberswap_classic_bttc/pools
+InterCroneSwap (Bittorent),bttc,https://www.geckoterminal.com/bttc/intercroneswap-bittorent/pools
+TORRSwap,bttc,https://www.geckoterminal.com/bttc/torrswap/pools
+Elk Finance (Bittorrent),bttc,https://www.geckoterminal.com/bttc/elk_finance_bittorrent/pools
+Justmoney (BitTorrent),bttc,https://www.geckoterminal.com/bttc/justmoney_bttc/pools
+Uniswap V3 (Celo),celo,https://www.geckoterminal.com/celo/uniswap_v3_celo/pools
+Ubeswap,celo,https://www.geckoterminal.com/celo/ubeswap/pools
+Sushiswap (CELO),celo,https://www.geckoterminal.com/celo/sushiswap_celo/pools
+CeloDEX,celo,https://www.geckoterminal.com/celo/celodex/pools
+Arthswap,astr,https://www.geckoterminal.com/astr/arthswap/pools
+Zenlink (Astar),astr,https://www.geckoterminal.com/astr/zenlink_astar/pools
+StarSwap,astr,https://www.geckoterminal.com/astr/starswap/pools
+Versa,astr,https://www.geckoterminal.com/astr/versa/pools
+PolkaEx (Astar),astr,https://www.geckoterminal.com/astr/polkaex_astar/pools
+AGS Finance,astr,https://www.geckoterminal.com/astr/ags_finance/pools
+FunBeast,astr,https://www.geckoterminal.com/astr/funbeast/pools
+Astar Exchange V3,astr,https://www.geckoterminal.com/astr/astar-exchange-v3/pools
+Astar Exchange,astr,https://www.geckoterminal.com/astr/astar_exchange/pools
+Fx Swap,fx,https://www.geckoterminal.com/fx/fx_swap/pools
+Quickswap (Polygon zkEVM),polygon-zkevm,https://www.geckoterminal.com/polygon-zkevm/quickswap-polygon-zkevm/pools
+DoveSwap V3,polygon-zkevm,https://www.geckoterminal.com/polygon-zkevm/doveswap-v3/pools
+LeetSwap (zkEVM),polygon-zkevm,https://www.geckoterminal.com/polygon-zkevm/leetswap-zkevm/pools
+Honeyswap,xdai,https://www.geckoterminal.com/xdai/honeyswap/pools
+Sushiswap (Xdai),xdai,https://www.geckoterminal.com/xdai/sushiswap_xdai/pools
+Balancer (Gnosis),xdai,https://www.geckoterminal.com/xdai/balancer-gnosis/pools
+Swapr (Xdai),xdai,https://www.geckoterminal.com/xdai/swapr_xdai/pools
+Levinswap,xdai,https://www.geckoterminal.com/xdai/levinswap_xdai/pools
+Elk Finance (Xdai),xdai,https://www.geckoterminal.com/xdai/elk_finance_xdai/pools
+Bao Finance,xdai,https://www.geckoterminal.com/xdai/bao_finance/pools
+MistSwap,bch,https://www.geckoterminal.com/bch/mistswap/pools
+TangoSwap,bch,https://www.geckoterminal.com/bch/tangoswap/pools
+Lawswap,bch,https://www.geckoterminal.com/bch/lawswap/pools
+BenSwap,bch,https://www.geckoterminal.com/bch/benswap/pools
+CowSwap (SmartBCH),bch,https://www.geckoterminal.com/bch/cowswap_smartbch/pools
+EmberSwap,bch,https://www.geckoterminal.com/bch/emberswap/pools
+1BCH,bch,https://www.geckoterminal.com/bch/1bch/pools
+Tropical Finance,bch,https://www.geckoterminal.com/bch/tropical_finance/pools
+UltronSwap,ultron,https://www.geckoterminal.com/ultron/ultronswap/pools
+Icecreamswap,bitgert,https://www.geckoterminal.com/bitgert/icecreamswap/pools
+Sphynx (Brise),bitgert,https://www.geckoterminal.com/bitgert/sphynx_brise/pools
+Tealswap,oasys,https://www.geckoterminal.com/oasys/tealswap/pools
+Mimo,iotx,https://www.geckoterminal.com/iotx/mimo/pools
+Elk Finance (IoTeX),iotx,https://www.geckoterminal.com/iotx/elk_finance_iotex/pools
+Solarbeam,movr,https://www.geckoterminal.com/movr/solarbeam/pools
+Huckleberry,movr,https://www.geckoterminal.com/movr/huckleberry/pools
+Sushiswap (Moonriver),movr,https://www.geckoterminal.com/movr/sushiswap_moonriver/pools
+Seadex,movr,https://www.geckoterminal.com/movr/seadex/pools
+Zenlink (Moonriver),movr,https://www.geckoterminal.com/movr/zenlink_moonriver/pools
+Elk Finance (Moonriver),movr,https://www.geckoterminal.com/movr/elk_finance_movr/pools
+Firebird (Moonriver),movr,https://www.geckoterminal.com/movr/firebird_movr/pools
+Zircon,movr,https://www.geckoterminal.com/movr/zircon/pools
+Fraxswap (Moonriver),movr,https://www.geckoterminal.com/movr/fraxswap_moonriver/pools
+WanSwap,wan,https://www.geckoterminal.com/wan/wanswap/pools
+Diamon Finance,bitkub_chain,https://www.geckoterminal.com/bitkub_chain/diamon_finance/pools
+Astroport Classic,terra,https://www.geckoterminal.com/terra/astroport/pools
+Terraswap,terra,https://www.geckoterminal.com/terra/terraswap/pools
+Loop Finance,terra,https://www.geckoterminal.com/terra/loop/pools
+Prism,terra,https://www.geckoterminal.com/terra/prism/pools
+TerraFloki,terra,https://www.geckoterminal.com/terra/terrafloki/pools
+TFM,terra,https://www.geckoterminal.com/terra/tfm/pools
+Yokaiswap,godwoken,https://www.geckoterminal.com/godwoken/yokaiswap/pools
+YuzuSwap (Oasis Emerald),oasis,https://www.geckoterminal.com/oasis/yuzuswap_oasis_emerald/pools
+Lizard Exchange,oasis,https://www.geckoterminal.com/oasis/lizard-exchange/pools
+GemKeeper,oasis,https://www.geckoterminal.com/oasis/gemkeeper/pools
+ValleySwap,oasis,https://www.geckoterminal.com/oasis/valleyswap/pools
+Duneswap,oasis,https://www.geckoterminal.com/oasis/duneswap/pools
+MiaSwap,onus,https://www.geckoterminal.com/onus/miaswap/pools
+Voltage Finance,fuse,https://www.geckoterminal.com/fuse/voltage_finance/pools
+Sushiswap (Fuse),fuse,https://www.geckoterminal.com/fuse/sushiswap_fuse/pools
+Elk Finance (Fuse),fuse,https://www.geckoterminal.com/fuse/elk_finance_fuse/pools
+SpaceFi,evmos,https://www.geckoterminal.com/evmos/spacefi/pools
+Diffusion,evmos,https://www.geckoterminal.com/evmos/diffusion/pools
+Cronus Finance,evmos,https://www.geckoterminal.com/evmos/cronus_finance/pools
+EvmoSwap,evmos,https://www.geckoterminal.com/evmos/evmoswap/pools
+Forge,evmos,https://www.geckoterminal.com/evmos/forge/pools
+Step Exchange,step-network,https://www.geckoterminal.com/step-network/step-exchange/pools
+WagyuSwap,velas,https://www.geckoterminal.com/velas/wagyuswap/pools
+AstroSwap,velas,https://www.geckoterminal.com/velas/astroswap/pools
+Wavelength,velas,https://www.geckoterminal.com/velas/wavelength/pools
+Neutroswap,eos-evm,https://www.geckoterminal.com/eos-evm/neutroswap/pools
+EOSWAP Finance,eos-evm,https://www.geckoterminal.com/eos-evm/eoswap-finance/pools
+NoahSwap,eos-evm,https://www.geckoterminal.com/eos-evm/noahswap/pools
+lif3,tombchain,https://www.geckoterminal.com/tombchain/lif3/pools
+XSwap,xdc,https://www.geckoterminal.com/xdc/xswap/pools
+Globiance,xdc,https://www.geckoterminal.com/xdc/globiance/pools
+Icecreamswap (XDC),xdc,https://www.geckoterminal.com/xdc/icecreamswap-xdc/pools
+DipoleSwap,platon_network,https://www.geckoterminal.com/platon_network/dipoleswap/pools
+OccamX,milkada,https://www.geckoterminal.com/milkada/occamx/pools
+Milkyswap (Milkomeda Cardano),milkada,https://www.geckoterminal.com/milkada/milkyswap-milkada/pools
+MuesliSwap (Milkomeda Cardano),milkada,https://www.geckoterminal.com/milkada/muesliswap-milkada/pools
+Luaswap,tomochain,https://www.geckoterminal.com/tomochain/luaswap/pools
+PowerSwap,ethw,https://www.geckoterminal.com/ethw/powerswap/pools
+UniWswap,ethw,https://www.geckoterminal.com/ethw/uniwswap/pools
+LFGswap,ethw,https://www.geckoterminal.com/ethw/lfgswap/pools
+Powswap,ethw,https://www.geckoterminal.com/ethw/powswap/pools
+Uniswap V2 (ETHW),ethw,https://www.geckoterminal.com/ethw/uniswap_v2_ethpow/pools
+Zergswap (V3),ethw,https://www.geckoterminal.com/ethw/zergswap-v3/pools
+CakeWSwap,ethw,https://www.geckoterminal.com/ethw/cakewswap/pools
+Zergswap V2,ethw,https://www.geckoterminal.com/ethw/zergswap-v2/pools
+Radioshack (ETHW),ethw,https://www.geckoterminal.com/ethw/radioshack-ethw/pools
+Sphynx (Loop Network),loop-network,https://www.geckoterminal.com/loop-network/sphynx-loop-network/pools
+Uniswap (Goerli Testnet),goerli-testnet,https://www.geckoterminal.com/goerli-testnet/uniswap-goerli-testnet/pools
+VoltSwap (Meter),mtr,https://www.geckoterminal.com/mtr/voltswap_meter/pools
+SharkSwap,sxn,https://www.geckoterminal.com/sxn/sharkswap/pools
+BeanSwap,beaneco-smartchain,https://www.geckoterminal.com/beaneco-smartchain/beanswap/pools
+LaserSwap,thundercore,https://www.geckoterminal.com/thundercore/laserswap/pools
+Pegasys,sys,https://www.geckoterminal.com/sys/pegasys/pools
+Soy Finance (Callisto),callisto,https://www.geckoterminal.com/callisto/soy-finance-callisto/pools
+Khaos Exchange,exosama,https://www.geckoterminal.com/exosama/khaos_exchange/pools
+Energiswap,nrg,https://www.geckoterminal.com/nrg/energiswap/pools
+Sphynx (Apex),apex,https://www.geckoterminal.com/apex/sphynx-apex/pools
+Oolongswap,boba,https://www.geckoterminal.com/boba/oolongswap/pools
+SwapperChan,boba,https://www.geckoterminal.com/boba/swapperchan/pools
+Vax,multivac,https://www.geckoterminal.com/multivac/vax/pools
+HebeSwap,ethereum_classic,https://www.geckoterminal.com/ethereum_classic/hebeswap/pools
+Soy Finance (ETC),ethereum_classic,https://www.geckoterminal.com/ethereum_classic/soy_finance_etc/pools
+Glide Finance,ela,https://www.geckoterminal.com/ela/glide_finance/pools
+Elk Finance (Elastos),ela,https://www.geckoterminal.com/ela/elk_finance_elastos/pools
+DawnSwap,redlight_chain,https://www.geckoterminal.com/redlight_chain/dawnswap/pools
+BlazeSwap (Flare),flare,https://www.geckoterminal.com/flare/blazeswap-flare/pools
+Pangolin Flare,flare,https://www.geckoterminal.com/flare/pangolin-flare/pools
+EmpireDEX (Empire),empire_network,https://www.geckoterminal.com/empire_network/empiredex_empire/pools
+PooSwap,poochain,https://www.geckoterminal.com/poochain/pooswap/pools
+Standard Protocol,sdn,https://www.geckoterminal.com/sdn/standard_protocol/pools
+PolkaEx (Shiden),sdn,https://www.geckoterminal.com/sdn/polkaex_shiden/pools
+Huckleberry (CLV),clover-finance,https://www.geckoterminal.com/clover-finance/huckleberry_clv/pools
+SpandexSwap,swimmer_network,https://www.geckoterminal.com/swimmer_network/spandexswap/pools
+Boneswap,bonerium,https://www.geckoterminal.com/bonerium/boneswap/pools
+Barnswap,muuchain,https://www.geckoterminal.com/muuchain/barnswap/pools
+Capricorn,cube_network,https://www.geckoterminal.com/cube_network/capricorn/pools
+AlveySwap,alvey,https://www.geckoterminal.com/alvey/alveyswap/pools
+Fairyswap,findora,https://www.geckoterminal.com/findora/fairyswap/pools
+Uniswap V2 (ETF),ethereumfair,https://www.geckoterminal.com/ethereumfair/uniswap_v2_etf/pools
+FairSwap,ethereumfair,https://www.geckoterminal.com/ethereumfair/fairswap/pools
+Radioshack (ETHF),ethereumfair,https://www.geckoterminal.com/ethereumfair/radioshack-etf/pools
+Lunagens,lung-chain,https://www.geckoterminal.com/lung-chain/lunagens/pools
+KekSwap,kekchain,https://www.geckoterminal.com/kekchain/kekswap/pools
+FrogSwap,kekchain,https://www.geckoterminal.com/kekchain/frogswap/pools
+OmniDex,tlos,https://www.geckoterminal.com/tlos/omnidex/pools
+Elk Finance (Telos),tlos,https://www.geckoterminal.com/tlos/elk_finance_telos/pools
+Zappy,tlos,https://www.geckoterminal.com/tlos/zappy/pools
+Sushiswap (Telos),tlos,https://www.geckoterminal.com/tlos/sushiswap_telos/pools
+Apeswap (Telos),tlos,https://www.geckoterminal.com/tlos/apeswap_telos/pools
+Swapsicle (Telos),tlos,https://www.geckoterminal.com/tlos/swapsicle-telos/pools
+Archly (Telos),tlos,https://www.geckoterminal.com/tlos/archly-telos/pools
+Dexit Finance,dexit_network,https://www.geckoterminal.com/dexit_network/dexit_finance/pools
+DeFy Swap,echelon,https://www.geckoterminal.com/echelon/defy_swap/pools
+ECH Swap,echelon,https://www.geckoterminal.com/echelon/ech_swap/pools
+Fusion Dex,nova-network,https://www.geckoterminal.com/nova-network/fusion-dex/pools
+Bitindi Dex,bitindi-chain,https://www.geckoterminal.com/bitindi-chain/bitindi-dex/pools
+Puppyswap,filecoin,https://www.geckoterminal.com/filecoin/puppyswap/pools
+PuddingSwap,hsc,https://www.geckoterminal.com/hsc/puddingswap/pools
+Elk Finance (Hoo Smart Chain),hsc,https://www.geckoterminal.com/hsc/elk_finance_hsc/pools
