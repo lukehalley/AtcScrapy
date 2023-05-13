@@ -1,8 +1,6 @@
 import csv, os
 import json
 import re
-
-import flatdict
 import scrapy
 
 class TokenSpider(scrapy.Spider):
