@@ -20,8 +20,8 @@ class PairSpider(scrapy.Spider):
 
     def parse(self, response, **kwargs):
 
-        pair_network = response.url.replace(self.gt_base_url, "").split("/")[0]
-        pair_dex = response.url.replace(self.gt_base_url, "").split("/")[1]
+        pair_network = response.url.replace(self.gt_base_url, "").split("/")[1]
+        pair_dex = response.url.replace(self.gt_base_url, "").split("/")[2]
 
         reg = r'"fallback".*?}}}}}'
         extracted_json = "{" + str(re.findall(reg, response.text)[0]).replace('\\"', '')
@@ -32,10 +32,12 @@ class PairSpider(scrapy.Spider):
 
         formatted_pair_dicts = []
         for pair_dict in pair_dicts:
+            pool_url = f'{self.gt_base_url}/{pair_network}/pools/{pair_dict["attributes"]["address"]}'
             formatted_pair_dict = {
                 "pair_name": pair_dict["attributes"]["name"].replace(" ", ""),
                 "pair_network": pair_network,
                 "pair_dex": pair_dex,
+                "pair_pool_url": pool_url,
                 "pair_address": pair_dict["attributes"]["address"],
                 "pair_volume_in": pair_dict["attributes"]["from_volume_in_usd"],
                 "pair_volume_out": pair_dict["attributes"]["to_volume_in_usd"],
