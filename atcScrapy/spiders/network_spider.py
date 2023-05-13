@@ -1,3 +1,4 @@
+import os
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 
@@ -7,7 +8,7 @@ class NetworkSpider(scrapy.Spider):
         'FEEDS': { 'yield/network.csv': { 'format': 'csv', 'overwrite': True}}
     }
 
-    start_urls = ["https://www.geckoterminal.com/"]
+    start_urls = [os.environ["GT_BASE_URL"]]
 
     def parse(self, response, **kwargs):
 
@@ -18,4 +19,5 @@ class NetworkSpider(scrapy.Spider):
         network_links = link_extractor.extract_links(response)
 
         for link in network_links:
-            yield {"url": link.url, "text": link.text}
+            if link.text != "" and link.url != "":
+                yield {"network_name": link.text, "network_url": link.url}
