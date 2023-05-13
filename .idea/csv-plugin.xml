@@ -38,6 +38,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/atcScrapy/yield/pair.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/atcScrapy/yield/token.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/atcScrapy/yield/transaction.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/yield/networks.csv">
           <value>
             <Attribute>
