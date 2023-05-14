@@ -38,11 +38,7 @@ class PairSpider(scrapy.Spider):
                 "pair_network": pair_network,
                 "pair_dex": pair_dex,
                 "pair_pool_url": pool_url,
-                "pair_address": pair_dict["attributes"]["address"],
-                "pair_volume_in": pair_dict["attributes"]["from_volume_in_usd"],
-                "pair_volume_out": pair_dict["attributes"]["to_volume_in_usd"],
-                "pair_volume_swap": pair_dict["attributes"]["aggregated_network_metrics"][
-                "total_swap_volume_usd_24h"]
+                "pair_address": pair_dict["attributes"]["address"]
             }
             formatted_pair_dicts.append(formatted_pair_dict)
 

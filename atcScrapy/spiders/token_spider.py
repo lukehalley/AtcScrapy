@@ -15,7 +15,7 @@ class TokenSpider(scrapy.Spider):
 
         with open("yield/pair.csv", "r") as f:
             readFile = csv.DictReader(f)
-            start_urls = [item['pair_tx_url'] for item in readFile]
+            start_urls = [item['pair_pool_url'] for item in readFile]
 
         full_reader = csv.DictReader(open('yield/pair.csv'))
         pair_dict = [item for item in full_reader]

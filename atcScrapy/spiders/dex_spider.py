@@ -8,6 +8,10 @@ class DexSpider(scrapy.Spider):
     custom_settings = {
         'FEEDS': { 'yield/dex.csv': { 'format': 'csv', 'overwrite': True}}
     }
+
+    lazy_mode = eval(os.environ["LAZY_MODE"])
+    lazy_count = int(os.environ["LAZY_COUNT"])
+
     gt_base_url = os.environ["GT_BASE_URL"]
     gt_pair_pages = int(os.environ["GT_PAIR_PAGES"])
 
@@ -24,6 +28,9 @@ class DexSpider(scrapy.Spider):
         link_extractor = LinkExtractor(allow=network_url_reg_exp, restrict_xpaths='//a', unique=True)
 
         network_links = link_extractor.extract_links(response)
+
+        if self.lazy_mode:
+            network_links = network_links[0:self.lazy_count]
 
         for link in network_links:
             if link.text != "" and dex_network != "" and link.url != "":

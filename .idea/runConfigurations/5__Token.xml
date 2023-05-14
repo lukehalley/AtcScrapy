@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Networks" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="5. Token" type="PythonConfigurationType" factoryName="Python">
     <module name="atcScrapy" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -27,7 +27,7 @@
       <option name="useCurrentConnection" value="false" />
     </EXTENSION>
     <option name="SCRIPT_NAME" value="scrapy.cmdline" />
-    <option name="PARAMETERS" value="crawl network" />
+    <option name="PARAMETERS" value="crawl token" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="true" />
