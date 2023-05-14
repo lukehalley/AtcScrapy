@@ -9,6 +9,8 @@
 
 import dotenv
 
+from atcScrapy.lib.logging import QuietLogFormatter
+
 dotenv.load_dotenv()
 
 BOT_NAME = "atcScrapy"
@@ -22,6 +24,8 @@ NEWSPIDER_MODULE = "atcScrapy.spiders"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
+
+LOG_FORMATTER = QuietLogFormatter
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
