@@ -18,22 +18,16 @@ class TransactionSpider(scrapy.Spider):
 
         with open("yield/pair.csv", "r") as f:
             readFile = csv.DictReader(f)
-            start_urls = [f'{os.environ["GT_API_BASE_URL"]}/{item["pair_network"]}/pools/{item["pair_address"]}/swaps' for item in readFile]
+            start_urls = [f'{os.environ["GT_API_BASE_URL"]}/{item["pair_network"]}/pools/{item["pair_address"]}/swaps?include=from_token%2Cto_token&page=1' for item in readFile]
 
         full_reader = csv.DictReader(open('yield/pair.csv'))
         pair_dict = [item for item in full_reader]
 
     def start_requests(self):
 
-        params = {
-            'include': 'from_token,to_token',
-            'page': '1',
-        }
-
         for url in self.start_urls:
             yield scrapy.FormRequest(
                 url,
-                formdata=params,
                 method='GET',
                 callback=self.parse_httpbin,
                 errback=self.errback_httpbin,
@@ -41,12 +35,26 @@ class TransactionSpider(scrapy.Spider):
             )
 
     def parse_httpbin(self, response):
-        self.logger.info('Recieved response from {}'.format(response.url))
-        response_json = json.loads(response.body.decode("utf-8"))
-        x = 1
+        pair_index = self.start_urls.index(response.url)
+        transaction_dicts = json.loads(response.body.decode("utf-8"))["data"]
+        formatted_transaction_dicts = []
+        for transaction_dict in transaction_dicts:
+            formatted_transaction = {
+                "transaction_type": transaction_dict["type"],
+                "transaction_hash": transaction_dict["attributes"]["tx_hash"],
+                "transaction_from_amount": transaction_dict["attributes"]["from_token_amount"],
+                "transaction_to_amount": transaction_dict["attributes"]["to_token_amount"],
+                "transaction_pair_address": self.pair_dict[pair_index]["pair_address"],
+                "transaction_pair_network": self.pair_dict[pair_index]["pair_network"],
+                "transaction_pair_dex": self.pair_dict[pair_index]["pair_dex"],
+                "transaction_url": response.url,
+            }
+            formatted_transaction_dicts.append(formatted_transaction)
+
+        for formatted_transaction_dict in formatted_transaction_dicts:
+            yield formatted_transaction_dict
 
     def errback_httpbin(self, failure):
-        # logs failures
         self.logger.error(repr(failure))
 
         if failure.check(HttpError):
