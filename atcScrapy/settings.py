@@ -9,7 +9,7 @@
 
 import dotenv
 
-from atcScrapy.lib.logging import QuietLogFormatter
+from atcScrapy.lib.log.logging import QuietLogFormatter
 
 dotenv.load_dotenv()
 

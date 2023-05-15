@@ -1,5 +1,7 @@
 from scrapy.utils.project import get_project_settings
 
+from atcScrapy.processing.decode.decode import decode_transactions
+
 settings = get_project_settings()
 
 from scrapy.crawler import CrawlerProcess
@@ -17,10 +19,15 @@ def start_sequentially(process: CrawlerProcess, crawlers: list):
         deferred.addCallback(lambda _: start_sequentially(process, crawlers[1:]))
 
 def main():
+
+    # Kick Off Crawlers
     crawlers = [NetworkSpider, ChainlistSpider, DexSpider, PairSpider, TokenSpider, TransactionSpider]
     process = CrawlerProcess(settings=get_project_settings())
     start_sequentially(process, crawlers)
     process.start()
+
+    # Decode Transactions
+    # decode_transactions()
 
 if __name__ == '__main__':
     main()

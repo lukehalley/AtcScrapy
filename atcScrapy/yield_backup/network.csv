@@ -1,0 +1,2 @@
+network_name,network_chain_id,network_identifier,network_native_currency_symbol,network_native_currency_address,network_explorer_tx_url,network_url
+Ethereum,1,eth,ETH,0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,https://etherscan.io/tx/,https://www.geckoterminal.com/eth/pools
