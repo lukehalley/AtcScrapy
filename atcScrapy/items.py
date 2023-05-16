@@ -1,12 +1,11 @@
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/items.html
-
 import scrapy
+from scrapy import Field
 
-
-class AtcscrapyItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class NetworkItem(scrapy.Item):
+    network_name = Field()
+    network_chain_id = Field()
+    network_identifier = Field()
+    network_native_currency_symbol = Field()
+    network_native_currency_address = Field()
+    network_explorer_url = Field()
+    network_geckoterminal_url = Field()

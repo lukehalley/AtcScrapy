@@ -3,6 +3,9 @@ import os
 import re
 import scrapy
 
+from atcScrapy.items import NetworkItem
+
+
 class NetworkSpider(scrapy.Spider):
     name = "network"
     custom_settings = {
@@ -23,29 +26,27 @@ class NetworkSpider(scrapy.Spider):
         for network in extracted_dict["props"]["networks"]:
 
             if "tx/" in network["attributes"]["explorer_tx_url"]:
-                explorer_tx_url = network["attributes"]["explorer_tx_url"].split("tx/")[0] + "tx/"
+                explorer_url = network["attributes"]["explorer_tx_url"].split("tx/")[0]
             else:
-                explorer_tx_url = network["attributes"]["explorer_tx_url"] + "/tx/"
+                explorer_url = network["attributes"]["explorer_tx_url"]
 
-            network_url = f'{self.start_urls[0]}/{network["attributes"]["identifier"]}/pools'
+            network_geckoterminal_url = f'{self.start_urls[0]}/{network["attributes"]["identifier"]}/pools'
 
-            formatted_network_dict = {
-                "network_name": network["attributes"]["name"],
-                "network_chain_id": network["attributes"]["chain_id"],
-                "network_identifier": network["attributes"]["identifier"],
-                "network_native_currency_symbol": network["attributes"]["native_currency_symbol"],
-                "network_native_currency_address": network["attributes"]["native_currency_address"],
-                "network_explorer_tx_url": explorer_tx_url,
-                "network_url": network_url
-            }
+            network_item = NetworkItem()
 
-            all_values_present = bool(formatted_network_dict) and all(formatted_network_dict.values())
+            network_item["network_name"] = network["attributes"]["name"]
+            network_item["network_chain_id"] = network["attributes"]["chain_id"]
+            network_item["network_identifier"] = network["attributes"]["identifier"]
+            network_item["network_native_currency_symbol"] = network["attributes"]["native_currency_symbol"]
+            network_item["network_native_currency_address"] = network["attributes"]["native_currency_address"]
+            network_item["network_explorer_url"] = explorer_url
+            network_item["network_geckoterminal_url"] = network_geckoterminal_url
 
-            if all_values_present:
-                formatted_network_dicts.append(formatted_network_dict)
+            if not None in network_item.values():
+                formatted_network_dicts.append(network_item)
 
         if self.lazy_mode:
             formatted_network_dicts = formatted_network_dicts[0:self.lazy_count]
 
-        for formatted_network_dict in formatted_network_dicts:
-            yield formatted_network_dict
+        for network_item in formatted_network_dicts:
+            yield network_item

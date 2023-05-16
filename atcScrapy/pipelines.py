@@ -1,13 +1,34 @@
-# Define your item pipelines here
-#
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
-# See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+import os
 
+from atcScrapy.lib.database.execute import execute_db_query
 
-# useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
+class MysqlDemoPipeline:
 
-
-class AtcscrapyPipeline:
     def process_item(self, item, spider):
-        return item
+
+        if spider.name == "network":
+
+            network_keys = os.getenv("DB_NETWORK_KEYS").split(",")
+
+            network_values = (
+                item["network_chain_id"],
+                item["network_name"],
+                item["network_identifier"],
+                item["network_explorer_url"],
+                "scan",
+                "",
+                "",
+                item["network_geckoterminal_url"],
+                item["network_native_currency_symbol"],
+                item["network_native_currency_address"],
+                5,
+                1,
+            )
+
+            execute_db_query(
+                query_table_name="networks",
+                query_keys=network_keys,
+                query_values=network_values
+            )
+
+            return item

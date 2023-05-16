@@ -8,7 +8,6 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 import dotenv
-
 from atcScrapy.lib.logging import QuietLogFormatter
 
 dotenv.load_dotenv()
@@ -70,9 +69,9 @@ DOWNLOAD_DELAY = 3
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "atcScrapy.pipelines.AtcscrapyPipeline": 300,
-#}
+ITEM_PIPELINES = {
+   'atcScrapy.pipelines.MysqlDemoPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
