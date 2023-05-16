@@ -14,7 +14,7 @@ class ChainlistSpider(scrapy.Spider):
     if os.path.isfile('yield/network.csv'):
         with open("yield/network.csv", "r") as f:
             readFile = csv.DictReader(f)
-            start_urls = [f'{os.environ["CL_BASE_URL"]}/{item["network_chain_id"]}' for item in readFile]
+            start_urls = [f'{os.environ["CL_BASE_URL"]}/{item["chain_id"]}' for item in readFile]
 
         full_reader = csv.DictReader(open('yield/network.csv'))
         network_dict = [item for item in full_reader]

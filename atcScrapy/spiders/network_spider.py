@@ -34,13 +34,18 @@ class NetworkSpider(scrapy.Spider):
 
             network_item = NetworkItem()
 
-            network_item["network_name"] = network["attributes"]["name"]
-            network_item["network_chain_id"] = network["attributes"]["chain_id"]
-            network_item["network_identifier"] = network["attributes"]["identifier"]
-            network_item["network_native_currency_symbol"] = network["attributes"]["native_currency_symbol"]
-            network_item["network_native_currency_address"] = network["attributes"]["native_currency_address"]
-            network_item["network_explorer_url"] = explorer_url
-            network_item["network_geckoterminal_url"] = network_geckoterminal_url
+            network_item["chain_id"] = network["attributes"]["chain_id"]
+            network_item["name"] = network["attributes"]["name"]
+            network_item["identifier"] = network["attributes"]["identifier"]
+            network_item["explorer_url"] = explorer_url
+            network_item["explorer_type"] = ""
+            network_item["explorer_api_prefix"] = ""
+            network_item["explorer_api_key"] = ""
+            network_item["geckoterminal_url"] = network_geckoterminal_url
+            network_item["native_currency_symbol"] = network["attributes"]["native_currency_symbol"]
+            network_item["native_currency_address"] = network["attributes"]["native_currency_address"]
+            network_item["native_currency_max_gas"] = 5
+            network_item["native_currency_min_gas"] = 1
 
             if not None in network_item.values():
                 formatted_network_dicts.append(network_item)
