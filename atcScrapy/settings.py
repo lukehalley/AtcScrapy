@@ -70,7 +70,7 @@ DOWNLOAD_DELAY = 3
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'atcScrapy.pipelines.MysqlDemoPipeline': 300,
+   'atcScrapy.pipelines.atc_scrapy_db_pipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -2,6 +2,10 @@ import csv, os
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 
+from atcScrapy.items import DexItem
+from atcScrapy.lib.database.read import execute_db_query
+
+
 class DexSpider(scrapy.Spider):
 
     name = "dex"
@@ -15,10 +19,11 @@ class DexSpider(scrapy.Spider):
     gt_base_url = os.environ["GT_BASE_URL"]
     gt_pair_pages = int(os.environ["GT_PAIR_PAGES"])
 
-    if os.path.isfile('yield/network.csv'):
-        with open("yield/network.csv", "r") as f:
-            reader = csv.DictReader(f)
-            start_urls = [item['network_url'] for item in reader]
+    networks_db = execute_db_query(
+        query="SELECT * FROM networks"
+    )
+
+    start_urls = [network_db['geckoterminal_url'] for network_db in networks_db]
 
     def parse(self, response, **kwargs):
 
@@ -40,4 +45,8 @@ class DexSpider(scrapy.Spider):
                         final_link = f"{link.url}?page={i}"
                     else:
                         final_link = link.url
-                    yield {"dex_name": link.text, "dex_network": dex_network, "dex_url": final_link}
+                    dex_item = DexItem()
+                    dex_item["dex_name"] = link.text
+                    dex_item["dex_network"] = dex_network
+                    dex_item["dex_url"] = final_link
+                    yield dex_item
