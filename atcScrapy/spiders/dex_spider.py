@@ -20,15 +20,20 @@ class DexSpider(scrapy.Spider):
     gt_pair_pages = int(os.environ["GT_PAIR_PAGES"])
 
     networks_db = execute_db_query(
-        query="SELECT * FROM networks"
+        query="SELECT * FROM network"
     )
 
     start_urls = [network_db['geckoterminal_url'] for network_db in networks_db]
 
     def parse(self, response, **kwargs):
 
-        dex_network = response.url.replace(self.gt_base_url, "").split("/")[1]
-        network_url_reg_exp = rf'\/{dex_network}\/.*\/pools$'
+        network_index = self.start_urls.index(response.url)
+
+        dex_network = self.networks_db[network_index]
+        dex_network_chain_id = dex_network["chain_id"]
+        dex_network_identifier = dex_network["identifier"]
+
+        network_url_reg_exp = rf'\/{dex_network_identifier}\/.*\/pools$'
 
         link_extractor = LinkExtractor(allow=network_url_reg_exp, restrict_xpaths='//a', unique=True)
 
@@ -38,7 +43,7 @@ class DexSpider(scrapy.Spider):
             network_links = network_links[0:self.lazy_count]
 
         for link in network_links:
-            if link.text != "" and dex_network != "" and link.url != "":
+            if link.text != "" and dex_network_identifier != "" and link.url != "":
                 for i in range(self.gt_pair_pages):
                     if i > 0:
                         i = i + 1
@@ -46,7 +51,9 @@ class DexSpider(scrapy.Spider):
                     else:
                         final_link = link.url
                     dex_item = DexItem()
-                    dex_item["dex_name"] = link.text
-                    dex_item["dex_network"] = dex_network
-                    dex_item["dex_url"] = final_link
+                    dex_item["chain_id"] = dex_network_chain_id
+                    dex_item["name"] = link.text
+                    dex_item["router_address"] = ""
+                    dex_item["factory_address"] = ""
+                    dex_item["geckoterminal_url"] = final_link
                     yield dex_item
