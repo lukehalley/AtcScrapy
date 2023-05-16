@@ -16,6 +16,9 @@ class NetworkItem(scrapy.Item):
     native_currency_min_gas = Field()
 
 class DexItem(scrapy.Item):
-    dex_name = Field()
-    dex_network = Field()
-    dex_url = Field()
+    dex_id = Field()
+    chain_id = Field()
+    name = Field()
+    router_address = Field()
+    factory_address = Field()
+    geckoterminal_url = Field()

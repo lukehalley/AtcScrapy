@@ -70,7 +70,7 @@ DOWNLOAD_DELAY = 3
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'atcScrapy.pipelines.atc_scrapy_db_pipeline': 300,
+   'atcScrapy.pipelines.ATCScrapyDBPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

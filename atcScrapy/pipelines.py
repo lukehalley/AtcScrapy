@@ -2,7 +2,7 @@ import os
 
 from atcScrapy.lib.database.write import execute_db_insert
 
-class atc_scrapy_db_pipeline:
+class ATCScrapyDBPipeline:
 
     def process_item(self, item, spider):
 
@@ -11,14 +11,17 @@ class atc_scrapy_db_pipeline:
 
         if db_keys_env:
 
-            network_keys = db_keys_env.split(",")
+            db_keys = db_keys_env.split(",")
 
-            network_values = list(item.values())
+            db_values = []
+            for db_key in db_keys:
+                item_value = item[db_key]
+                db_values.append(item_value)
 
             execute_db_insert(
-                query_table_name="networks",
-                query_keys=network_keys,
-                query_values=network_values
+                query_table_name=spider.name,
+                query_keys=db_keys,
+                query_values=db_values
             )
 
             return item
