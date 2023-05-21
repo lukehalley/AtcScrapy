@@ -1,29 +1,25 @@
-import csv, os
+import json
+import os
+
 import scrapy
-from scrapy.linkextractors import LinkExtractor
 
 from atcScrapy.items import DexItem
 from atcScrapy.lib.database.read import execute_db_query
 
 
 class DexSpider(scrapy.Spider):
-
     name = "dex"
-    custom_settings = {
-        'FEEDS': { 'yield/dex.csv': { 'format': 'csv', 'overwrite': True}}
-    }
 
     lazy_mode = eval(os.environ["LAZY_MODE"])
     lazy_count = int(os.environ["LAZY_COUNT"])
 
-    gt_base_url = os.environ["GT_BASE_URL"]
-    gt_pair_pages = int(os.environ["GT_PAIR_PAGES"])
+    gt_base_url = os.environ["GT_OFFICIAL_BASE_URL"]
 
     networks_db = execute_db_query(
         query="SELECT * FROM network"
     )
 
-    start_urls = [network_db['geckoterminal_url'] for network_db in networks_db]
+    start_urls = [f'{os.environ["GT_OFFICIAL_BASE_URL"]}/networks/{network_db["identifier"]}/dexes' for network_db in networks_db]
 
     def parse(self, response, **kwargs):
 
@@ -31,29 +27,14 @@ class DexSpider(scrapy.Spider):
 
         dex_network = self.networks_db[network_index]
         dex_network_chain_id = dex_network["chain_id"]
-        dex_network_identifier = dex_network["identifier"]
 
-        network_url_reg_exp = rf'\/{dex_network_identifier}\/.*\/pools$'
+        extracted_dict = json.loads(response.text)
 
-        link_extractor = LinkExtractor(allow=network_url_reg_exp, restrict_xpaths='//a', unique=True)
-
-        network_links = link_extractor.extract_links(response)
-
-        if self.lazy_mode:
-            network_links = network_links[0:self.lazy_count]
-
-        for link in network_links:
-            if link.text != "" and dex_network_identifier != "" and link.url != "":
-                for i in range(self.gt_pair_pages):
-                    if i > 0:
-                        i = i + 1
-                        final_link = f"{link.url}?page={i}"
-                    else:
-                        final_link = link.url
-                    dex_item = DexItem()
-                    dex_item["chain_id"] = dex_network_chain_id
-                    dex_item["name"] = link.text
-                    dex_item["router_address"] = ""
-                    dex_item["factory_address"] = ""
-                    dex_item["geckoterminal_url"] = final_link
-                    yield dex_item
+        for dex in extracted_dict["data"]:
+            dex_item = DexItem()
+            dex_item["chain_id"] = dex_network_chain_id
+            dex_item["name"] = dex["attributes"]["name"]
+            dex_item["identifier"] = dex["id"]
+            dex_item["router_address"] = ""
+            dex_item["factory_address"] = ""
+            yield dex_item

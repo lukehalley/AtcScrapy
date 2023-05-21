@@ -19,6 +19,28 @@ class DexItem(scrapy.Item):
     dex_id = Field()
     chain_id = Field()
     name = Field()
+    identifier = Field()
     router_address = Field()
     factory_address = Field()
-    geckoterminal_url = Field()
+
+class RPCItem(scrapy.Item):
+    rpc_id = Field()
+    chain_id = Field()
+    url = Field()
+
+class PairItem(scrapy.Item):
+    primary_token_id = Field()
+    quote_token_id = Field()
+    chain_id = Field()
+    dex_id = Field()
+    name = Field()
+    primary_token_name = Field()
+    quote_token_name = Field()
+    address = Field()
+
+class TokenItem(scrapy.Item):
+    chain_id = Field()
+    name = Field()
+    symbol = Field()
+    decimals = Field()
+    address = Field()
