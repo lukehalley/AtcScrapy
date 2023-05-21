@@ -6,7 +6,8 @@ class ATCScrapyDBPipeline:
 
     def process_item(self, item, spider):
 
-        db_keys_env_name = f"DB_{spider.name.upper()}_KEYS"
+        item_class = item.__class__.__name__.replace("Item", "")
+        db_keys_env_name = f"DB_{item_class.upper()}_KEYS"
         db_keys_env = os.getenv(db_keys_env_name)
 
         if db_keys_env:
@@ -19,7 +20,7 @@ class ATCScrapyDBPipeline:
                 db_values.append(item_value)
 
             execute_db_insert(
-                query_table_name=spider.name,
+                query_table_name=item_class.lower(),
                 query_keys=db_keys,
                 query_values=db_values
             )

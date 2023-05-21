@@ -40,7 +40,18 @@ class PairItem(scrapy.Item):
 
 class TokenItem(scrapy.Item):
     chain_id = Field()
+    dex_id = Field()
+    pair_id = Field()
     name = Field()
     symbol = Field()
     decimals = Field()
     address = Field()
+
+class TransactionItem(scrapy.Item):
+    chain_id = Field()
+    dex_id = Field()
+    pair_id = Field()
+    type = Field()
+    hash = Field()
+    to_amount  = Field()
+    from_amount  = Field()
