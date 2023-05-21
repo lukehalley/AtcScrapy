@@ -8,29 +8,25 @@ from atcScrapy.items import NetworkItem
 
 class NetworkSpider(scrapy.Spider):
     name = "network"
-    custom_settings = {
-        'FEEDS': { 'yield/network.csv': { 'format': 'csv', 'overwrite': True}}
-    }
 
     lazy_mode = eval(os.environ["LAZY_MODE"])
     lazy_count = int(os.environ["LAZY_COUNT"])
-    start_urls = [os.environ["GT_BASE_URL"]]
+
+    network_api_url = f'{os.environ["GT_API_BASE_URL"]}/networks'
+
+    start_urls = [network_api_url]
 
     def parse(self, response, **kwargs):
 
-        reg = r'<script id="__NEXT_DATA__" type="application\/json">(.*?)<\/script>'
-        extracted_json = re.findall(reg, response.text)[0].replace('\\"', '')
-        extracted_dict = json.loads(extracted_json)
+        extracted_dict = json.loads(response.text)
 
         formatted_network_dicts = []
-        for network in extracted_dict["props"]["networks"]:
+        for network in extracted_dict["data"]:
 
             if "tx/" in network["attributes"]["explorer_tx_url"]:
                 explorer_url = network["attributes"]["explorer_tx_url"].split("tx/")[0]
             else:
                 explorer_url = network["attributes"]["explorer_tx_url"]
-
-            network_geckoterminal_url = f'{self.start_urls[0]}/{network["attributes"]["identifier"]}/pools'
 
             network_item = NetworkItem()
 
@@ -41,7 +37,6 @@ class NetworkSpider(scrapy.Spider):
             network_item["explorer_type"] = ""
             network_item["explorer_api_prefix"] = ""
             network_item["explorer_api_key"] = ""
-            network_item["geckoterminal_url"] = network_geckoterminal_url
             network_item["native_currency_symbol"] = network["attributes"]["native_currency_symbol"]
             network_item["native_currency_address"] = network["attributes"]["native_currency_address"]
             network_item["native_currency_max_gas"] = 5

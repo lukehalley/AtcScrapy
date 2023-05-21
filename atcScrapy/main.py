@@ -3,10 +3,10 @@ from scrapy.utils.project import get_project_settings
 settings = get_project_settings()
 
 from scrapy.crawler import CrawlerProcess
-from atcScrapy.spiders.chainlist_spider import ChainlistSpider
+from atcScrapy.spiders.rpc_spider import ChainlistSpider
 from atcScrapy.spiders.network_spider import NetworkSpider
 from atcScrapy.spiders.dex_spider import DexSpider
-from atcScrapy.spiders.pairs_spider import PairSpider
+from atcScrapy.spiders.pair_spider import PairSpider
 from atcScrapy.spiders.token_spider import TokenSpider
 from atcScrapy.spiders.transactions_spider import TransactionSpider
 
