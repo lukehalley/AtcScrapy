@@ -29,7 +29,6 @@ class PairSpider(scrapy.Spider):
               "ON dex.chain_id = network.chain_id"
     )
 
-    # https://app.geckoterminal.com/api/p1/eth/pools?dex=uniswap_v3&include=dex,dex.dex_metric,dex.network,tokens&page=1&include_network_metrics=true
     start_urls = [f'{os.environ["GT_API_BASE_URL"]}/{network_and_dex_db["network_identifier"]}/pools?dex={network_and_dex_db["dex_identifier"]}&include=dex,dex.dex_metric,dex.network,tokens&page=1&include_network_metrics=true' for network_and_dex_db in networks_and_dexs_db]
 
     def parse(self, response, **kwargs):
