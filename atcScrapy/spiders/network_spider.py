@@ -33,10 +33,6 @@ class NetworkSpider(scrapy.Spider):
             network_item["chain_id"] = network["attributes"]["chain_id"]
             network_item["name"] = network["attributes"]["name"]
             network_item["identifier"] = network["attributes"]["identifier"]
-            network_item["explorer_url"] = explorer_url
-            network_item["explorer_type"] = ""
-            network_item["explorer_api_prefix"] = ""
-            network_item["explorer_api_key"] = ""
             network_item["native_currency_symbol"] = network["attributes"]["native_currency_symbol"]
             network_item["native_currency_address"] = network["attributes"]["native_currency_address"]
             network_item["native_currency_max_gas"] = 5

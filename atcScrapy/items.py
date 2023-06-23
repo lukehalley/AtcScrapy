@@ -28,6 +28,13 @@ class RPCItem(scrapy.Item):
     chain_id = Field()
     url = Field()
 
+class ExplorerItem(scrapy.Item):
+    explorer_id = Field()
+    chain_id = Field()
+    name = Field()
+    url = Field()
+    standard = Field()
+
 class PairItem(scrapy.Item):
     primary_token_id = Field()
     quote_token_id = Field()
